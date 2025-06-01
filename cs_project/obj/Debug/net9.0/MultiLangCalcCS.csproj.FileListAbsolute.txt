@@ -1,0 +1,14 @@
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/bin/Debug/net9.0/MultiLangCalcCS
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/bin/Debug/net9.0/MultiLangCalcCS.deps.json
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/bin/Debug/net9.0/MultiLangCalcCS.runtimeconfig.json
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/bin/Debug/net9.0/MultiLangCalcCS.dll
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/bin/Debug/net9.0/MultiLangCalcCS.pdb
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/obj/Debug/net9.0/MultiLangCalcCS.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/obj/Debug/net9.0/MultiLangCalcCS.AssemblyInfoInputs.cache
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/obj/Debug/net9.0/MultiLangCalcCS.AssemblyInfo.cs
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/obj/Debug/net9.0/MultiLangCalcCS.csproj.CoreCompileInputs.cache
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/obj/Debug/net9.0/MultiLangCalcCS.dll
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/obj/Debug/net9.0/refint/MultiLangCalcCS.dll
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/obj/Debug/net9.0/MultiLangCalcCS.pdb
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/obj/Debug/net9.0/MultiLangCalcCS.genruntimeconfig.cache
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/obj/Debug/net9.0/ref/MultiLangCalcCS.dll
