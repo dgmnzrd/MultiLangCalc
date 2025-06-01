@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+    <ItemGroup>
+    <!--
+      Incluimos libmix.dylib (que ya has compilado con clang/clang++)
+      y le decimos a MSBuild que lo copie siempre al directorio de salida (build y publish).
+      La ruta aquí es relativa al .csproj, así que usamos simplemente "libmix.dylib".
+    -->
+    <None Include="libmix.dylib">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Always</CopyToPublishDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

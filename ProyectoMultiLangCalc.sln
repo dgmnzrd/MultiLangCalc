@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLangCalcCS", "cs_project\MultiLangCalcCS.csproj", "{F13CAF97-34CC-DEFF-155B-7BABCE92F6ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLangCalcWeb", "WebCalc\MultiLangCalcWeb.csproj", "{FADF80DB-71B3-F8FE-FEB4-68254E3CA5D1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F13CAF97-34CC-DEFF-155B-7BABCE92F6ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F13CAF97-34CC-DEFF-155B-7BABCE92F6ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F13CAF97-34CC-DEFF-155B-7BABCE92F6ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F13CAF97-34CC-DEFF-155B-7BABCE92F6ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FADF80DB-71B3-F8FE-FEB4-68254E3CA5D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FADF80DB-71B3-F8FE-FEB4-68254E3CA5D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FADF80DB-71B3-F8FE-FEB4-68254E3CA5D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FADF80DB-71B3-F8FE-FEB4-68254E3CA5D1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1765AB89-8125-49B3-81B5-EA585BA0F0D7}
+	EndGlobalSection
+EndGlobal

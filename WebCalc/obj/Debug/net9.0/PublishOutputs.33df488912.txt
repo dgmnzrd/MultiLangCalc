@@ -1,0 +1,7 @@
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/WebCalc/bin/Debug/net9.0/publish/MultiLangCalcWeb
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/WebCalc/bin/Debug/net9.0/publish/appsettings.Development.json
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/WebCalc/bin/Debug/net9.0/publish/appsettings.json
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/WebCalc/bin/Debug/net9.0/publish/MultiLangCalcWeb.dll
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/WebCalc/bin/Debug/net9.0/publish/MultiLangCalcWeb.deps.json
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/WebCalc/bin/Debug/net9.0/publish/MultiLangCalcWeb.runtimeconfig.json
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/WebCalc/bin/Debug/net9.0/publish/MultiLangCalcWeb.pdb

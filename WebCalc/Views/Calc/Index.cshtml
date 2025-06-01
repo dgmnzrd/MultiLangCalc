@@ -1,0 +1,136 @@
+@{
+    ViewData["Title"] = "Calculadora Científica";
+    var resultado = ViewBag.Resultado;
+    var mensajeError = ViewBag.MensajeError as string;
+    var inputA = ViewBag.InputA as string ?? "";
+    var inputB = ViewBag.InputB as string ?? "";
+    var operaciónSeleccionada = ViewBag.Operation as string ?? "";
+}
+
+<div class="main-container">
+    <h2 class="calculator-header">Calculadora Científica</h2>
+
+    <form method="post" action="/Calc/Calculate">
+        @Html.AntiForgeryToken()
+
+        <div class="form-group">
+            <label for="operation">Operación:</label>
+            <select id="operation" name="operation" class="form-control">
+                @if (operaciónSeleccionada == "sum")
+                {
+                    <option value="sum" selected="selected">Suma (a + b)</option>
+                }
+                else
+                {
+                    <option value="sum">Suma (a + b)</option>
+                }
+
+                @if (operaciónSeleccionada == "sub")
+                {
+                    <option value="sub" selected="selected">Resta (a - b)</option>
+                }
+                else
+                {
+                    <option value="sub">Resta (a - b)</option>
+                }
+
+                @if (operaciónSeleccionada == "mul")
+                {
+                    <option value="mul" selected="selected">Multiplicación (a * b)</option>
+                }
+                else
+                {
+                    <option value="mul">Multiplicación (a * b)</option>
+                }
+
+                @if (operaciónSeleccionada == "div")
+                {
+                    <option value="div" selected="selected">División (a / b)</option>
+                }
+                else
+                {
+                    <option value="div">División (a / b)</option>
+                }
+
+                @if (operaciónSeleccionada == "sin")
+                {
+                    <option value="sin" selected="selected">Seno (sin a)</option>
+                }
+                else
+                {
+                    <option value="sin">Seno (sin a)</option>
+                }
+
+                @if (operaciónSeleccionada == "cos")
+                {
+                    <option value="cos" selected="selected">Coseno (cos a)</option>
+                }
+                else
+                {
+                    <option value="cos">Coseno (cos a)</option>
+                }
+
+                @if (operaciónSeleccionada == "tan")
+                {
+                    <option value="tan" selected="selected">Tangente (tan a)</option>
+                }
+                else
+                {
+                    <option value="tan">Tangente (tan a)</option>
+                }
+
+                @if (operaciónSeleccionada == "log")
+                {
+                    <option value="log" selected="selected">Logaritmo natural (log a)</option>
+                }
+                else
+                {
+                    <option value="log">Logaritmo natural (log a)</option>
+                }
+
+                @if (operaciónSeleccionada == "pow")
+                {
+                    <option value="pow" selected="selected">Potencia (a^b)</option>
+                }
+                else
+                {
+                    <option value="pow">Potencia (a^b)</option>
+                }
+
+                @if (operaciónSeleccionada == "sqrt")
+                {
+                    <option value="sqrt" selected="selected">Raíz cuadrada (sqrt a)</option>
+                }
+                else
+                {
+                    <option value="sqrt">Raíz cuadrada (sqrt a)</option>
+                }
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="inputA">Valor A:</label>
+            <input type="text" id="inputA" name="inputA" class="form-control" value="@inputA" />
+        </div>
+
+        <div class="form-group" id="group-inputB">
+            <label for="inputB">Valor B (opcional para algunas operaciones):</label>
+            <input type="text" id="inputB" name="inputB" class="form-control" value="@inputB" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Calcular</button>
+    </form>
+
+    @if (!string.IsNullOrEmpty(mensajeError))
+    {
+        <div class="error-message">
+            @mensajeError
+        </div>
+    }
+    else if (resultado != null)
+    {
+        <div class="result-message">
+            Resultado: @resultado
+        </div>
+    }
+</div>

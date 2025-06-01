@@ -1,0 +1,5 @@
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/bin/Debug/net9.0/publish/MultiLangCalcCS
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/bin/Debug/net9.0/publish/MultiLangCalcCS.dll
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/bin/Debug/net9.0/publish/MultiLangCalcCS.deps.json
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/bin/Debug/net9.0/publish/MultiLangCalcCS.runtimeconfig.json
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/bin/Debug/net9.0/publish/MultiLangCalcCS.pdb

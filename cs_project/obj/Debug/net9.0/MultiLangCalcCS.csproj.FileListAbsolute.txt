@@ -12,3 +12,4 @@
 /Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/obj/Debug/net9.0/MultiLangCalcCS.pdb
 /Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/obj/Debug/net9.0/MultiLangCalcCS.genruntimeconfig.cache
 /Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/obj/Debug/net9.0/ref/MultiLangCalcCS.dll
+/Users/dmred/Documents/Proyectos/ProyectoMultiLangCalc/cs_project/obj/Debug/net9.0/MultiLangCalcCS.sourcelink.json

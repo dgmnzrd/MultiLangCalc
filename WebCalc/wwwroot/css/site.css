@@ -1,0 +1,105 @@
+/* wwwroot/css/site.css */
+
+/* Estilos generales del body y fuente */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #f5f8fa;
+    color: #333333;
+}
+
+/* Contenedor principal centrado */
+.main-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado de la calculadora */
+.calculator-header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #222222;
+}
+
+/* Estilo para los labels */
+label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 4px;
+    color: #555555;
+}
+
+/* Contenedor de cada campo del formulario */
+.form-group {
+    margin-bottom: 16px;
+}
+
+/* Inputs y select con estilos uniformes */
+input[type="text"], select {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 1rem;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: #fafafa;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+/* Efecto al enfocar input o select */
+input[type="text"]:focus, select:focus {
+    outline: none;
+    border-color: #40a9ff;
+    box-shadow: 0 0 4px rgba(64, 169, 255, 0.3);
+    background-color: #ffffff;
+}
+
+/* Botón de calcular */
+button[type="submit"] {
+    background-color: #40a9ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* Efecto al pasar el cursor sobre el botón */
+button[type="submit"]:hover {
+    background-color: #1890ff;
+}
+
+/* Estilos para mensajes de error */
+.error-message {
+    color: #d93025;
+    margin-top: 12px;
+    font-weight: 500;
+}
+
+/* Estilos para mostrar resultado */
+.result-message {
+    color: #0f5132;
+    margin-top: 12px;
+    font-weight: 500;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 480px) {
+    .main-container {
+        margin: 20px 10px;
+        padding: 16px;
+    }
+    .calculator-header {
+        font-size: 1.5rem;
+    }
+    button[type="submit"] {
+        width: 100%;
+    }
+}
